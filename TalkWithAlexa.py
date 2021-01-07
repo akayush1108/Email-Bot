@@ -62,7 +62,9 @@ def run_alexa():
         talk('romance is the expressive and pleasurable feeling from an emotion toward another person')
     elif 'who was in the kitchen' in command:
         talk('Rashi sister will be there but I will not be able to tell you why she took the gram out of the cooker and put it on the gas of the empty cooker.')
-    elif 'joke' in command:
+    elif 'what is covid-19' in command:
+        talk('coronavirus disease is an infectious disease caused by newly discovered coronavirus and its most common symptoms are fever, dry cough, tiredness')
+    elif 'tell me a joke' in command:
         talk(pyjokes.get_joke())
     else:
         print('please say the command again.')
